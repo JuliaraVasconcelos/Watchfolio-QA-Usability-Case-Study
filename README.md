@@ -40,3 +40,9 @@ This case study was conducted to perform a **Heuristic Usability Evaluation and 
 * 📂 [Test Cases](docs/test-cases.md)
 * 📂 [Usability & Bug Report](docs/usability-report.md)
 * 📂 [Media & Evidence](assets/)
+
+---
+
+## 👤 Credits & Acknowledgements
+* **App Developer:** Bruno Andrade
+* **QA & Usability Analyst:** Juliara Vasconcelos
