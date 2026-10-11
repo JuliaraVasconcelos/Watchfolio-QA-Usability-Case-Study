@@ -32,3 +32,15 @@
   * *Actual:* The screen zooms in automatically upon focusing on the input field.
 * **Technical Root Cause & Fix:** In iOS WebViews and mobile safari frameworks, input fields with a `font-size` smaller than `16px` trigger an automatic system zoom. Increasing the font size of the search input field to `16px` will resolve this behavior.
 * **Evidence:** *![viewport zoom](https://www.image2url.com/r2/default/images/1791732351479-6fa6aaed-2a1b-448a-8c69-51e54538d8a2.jpg)*
+
+## 📐 Nielsen's Usability Heuristics Mapping
+
+### [USAB-01] Date Selection Friction
+* **Heuristic Violated:** **#8 Aesthetic and Minimalist Design** & **#7 Flexibility and Efficiency of Use**
+* **Analysis:** Presenting 4 separate options and requiring a double-confirmation flow (calendar checkmark + "Use" button) increases cognitive load and unnecessary user interactions. Streamlining to a single native calendar picker directly supports efficient task completion.
+
+---
+
+### [USAB-02] Automatic Viewport Zoom
+* **Heuristic Violated:** **#4 Consistency and Standards**
+* **Analysis:** Unintended viewport zooming upon text field focus violates standard iOS interface guidelines. Maintaining system-wide layout consistency prevents user confusion and layout distortion.
