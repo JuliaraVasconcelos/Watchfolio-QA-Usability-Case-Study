@@ -39,7 +39,6 @@ This case study was conducted to perform a **Heuristic Usability Evaluation and 
 ## 📄 Documentation Structure
 * 📂 [Test Cases](docs/test-cases.md)
 * 📂 [Usability & Bug Report](docs/usability-report.md)
-* 📂 [Media & Evidence](assets/)
 
 ---
 
